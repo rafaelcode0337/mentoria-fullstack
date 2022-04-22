@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Web coder</title>
+
+</head>
+<body>
+	<header>
+		<h1>Web coder</h1>
+		<h2>O guia para desenvolvedores web</h2>
+	</header>
+
+	<main class="conteudo">
+		<p>bem vindo ao web coder, seu guia desenvolvimento web.</p>
+		<p>confira adiante alguns conceitos importantes sobre html.</p>
+
+		<nav class="indice">
+			<ul>
+				<li><a href="#headers">Headers</a></li>
+				<li><a href="#textos">textos</a></li>
+				<li><a href="#listas">listas</a>
+					<ul>
+						<li><a href="#ul">listar não ordenadas</a></li>
+						<li><a href="#ol">listas ordenadas</a></li>
+					</ul>
+				</li>
+				<li><a href="#ancoras">ancoras</a>
+			</ul>
+		</nav>
+		
+		<section class="artigos">
+			<h1>Artigos</h1>
+
+			<article class="artigo">
+				<h2 id="headers">Headers</h2>
+				<p>Headers são títulos, existem headers de 1 a 6, sendo h1 um título principal, h2 um subtítulo de um h1, um h3 um subtítulo de h2, e assim por diante, eles são repressentados pelas tags &lt;h1&gt; a &lt;h6&gt;</p>
+
+				<h1>Header 1</h1>
+				<h2>Header 2</h2>
+				<h3>Header 3</h3>
+				<h4>Header 4</h4>
+				<h5>Header 5</h5>
+				<h6>Header 6</h6>
+			</article>
+			
+			<article class="artigo">
+				<h2 id="textos">Textos</h2>
+				<p>para inserir textos no html nós podemos usar a tag &lt;p&gt; que representa um parágrafo</p>
+				<p>isso é um parágrafo</p>
+			</article>
+
+			<article class="artigo">
+				<h2 id="listas">listas</h2>
+				<p>podemos representar listas em nosso site com duas tags diferentes, &lt;ul&gt; e &lt;ol&gt;, e cada elemento dentro da lista é representado por um &lt;li&gt;</p>
+
+				<h3 id="ul">Listas não ordenadas</h3>
+				<p>&lt;ul&gt; respresenta uma lista não ordenada, onde a ordem dos elementos não importam, exemplo uma lista de compras:</p>
+				<ul>
+					<li>arroz</li>
+					<li>feijão</li>
+					<li>oléo</li>
+					<li>carne</li>
+					<li>ovos</li>
+					<li>leite</li>
+				</ul>
+
+				<h3 id="ol">Listas ordenadas</h3>
+				<p>&lt;ol&gt; respresenta uma lista ordenada, onde a ordem dos elementos importam, exemplo uma receita de doce de leite:</p>
+				<ol>
+					<li>jogue o leite e o açucar na penela</li>
+					<li>mexa até ganhar consistência</li>
+					<li>deixe na geladeira até ficar dura</li>
+				</ol>
+			</article>
+
+			<article class="artigo">
+				<h2 id="ancoras">Âncoras</h2>
+				<p>Âncoras não são nada mais nada menos do que links, e existem ancôras internas que apontam para páginas do nosso site, ou elementos dentro dela, para definir uma âncora usamos a tag &lta;a&gt;, e para definirmos a url a que ela leva usamos o atributo href</p>
+				<a href="https://google.com">link pro google</a>
+			</article>	
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy;copyright MentoriaFullstack 2022</p>
+	</footer>
+</body>
+</html>

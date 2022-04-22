@@ -1,0 +1,47 @@
+/*
+seletor {
+	regrasdeestilo: valor;
+}
+
+seletor de nome de tag: é o priprio nome de tag;
+seletor de classe: usamos um . e o nome da classe:  exemplo .classe;
+*/
+body {
+	background-color: #060b12;
+	color: #acb3bd;
+	font-family: Arial;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 5px;
+}
+
+header {
+	background-color: #131d2b;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+.conteudo {
+	padding: 20px;
+}
+
+.indice ul {
+	list-style: none;
+	padding: 10px;
+}
+
+.indice ul li {
+	list-style: none;
+	padding: 3px;
+	margin: 4px;
+}
+
+.indice a {
+	text-decoration: none;
+	color: royalblue;
+}
